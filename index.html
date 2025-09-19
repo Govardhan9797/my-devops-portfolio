@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0d0d0d;
+        }
+    </style>
+</head>
+<body class="bg-gray-950 text-gray-100 min-h-screen font-sans">
+
+    <div class="container mx-auto p-6 md:p-10 lg:p-16">
+        
+        <!-- Header Section -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-cyan-400 mb-2 drop-shadow-lg">Govardhan Reddy D</h1>
+            <p class="text-xl md:text-2xl font-medium text-gray-400">DevOps Engineer</p>
+            <p class="mt-4 text-sm md:text-base text-gray-500">Currently working as implementation Enginner, Seeking new opportunities!</p>
+        </header>
+
+        <!-- About Me Section -->
+        <section id="about" class="bg-gray-900 rounded-lg p-6 mb-8 transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/50 hover:shadow-2xl">
+            <h2 class="text-3xl font-bold mb-4 text-cyan-400">About Me</h2>
+            <p class="text-gray-300 leading-relaxed">
+                A results-driven implementation Engineer with 2+ years of experience in building, deploying, and managing scalable and reliable systems. I have a strong background in automating CI/CD pipelines, containerization with Docker and Kubernetes, and managing cloud infrastructure on AWS. Passionate about streamlining workflows and improving system performance.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="bg-gray-900 rounded-lg p-6 mb-8">
+            <h2 class="text-3xl font-bold mb-6 text-cyan-400">Skills</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Each skill is a card with a hover effect -->
+                <div class="group relative bg-gray-800 rounded-xl p-6 text-center shadow-lg transition-all duration-300 hover:bg-cyan-800 hover:shadow-cyan-500/50 hover:shadow-2xl hover:-translate-y-1 h-48">
+                    <!-- Front of the card with the icon and main text -->
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-100 transition-opacity duration-300 group-hover:opacity-0">
+                        <span class="text-5xl mb-2 drop-shadow-lg">☁️</span>
+                        <h3 class="text-lg font-semibold text-gray-100">Cloud</h3>
+                    </div>
+                    <!-- Back of the card with the detailed text -->
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <p class="text-sm font-medium text-white mb-2">Platforms</p>
+                        <p class="text-xs text-cyan-100">AWS, Azure, GCP</p>
+                    </div>
+                </div>
+                
+                <div class="group relative bg-gray-800 rounded-xl p-6 text-center shadow-lg transition-all duration-300 hover:bg-cyan-800 hover:shadow-cyan-500/50 hover:shadow-2xl hover:-translate-y-1 h-48">
+                    <!-- Front of the card -->
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-100 transition-opacity duration-300 group-hover:opacity-0">
+                        <span class="text-5xl mb-2 drop-shadow-lg">⚙️</span>
+                        <h3 class="text-lg font-semibold text-gray-100">CI/CD</h3>
+                    </div>
+                    <!-- Back of the card -->
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <p class="text-sm font-medium text-white mb-2">Automation</p>
+                        <p class="text-xs text-cyan-100">Jenkins, GitLab CI, GitHub Actions</p>
+                    </div>
+                </div>
+
+                <div class="group relative bg-gray-800 rounded-xl p-6 text-center shadow-lg transition-all duration-300 hover:bg-cyan-800 hover:shadow-cyan-500/50 hover:shadow-2xl hover:-translate-y-1 h-48">
+                    <!-- Front of the card -->
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-100 transition-opacity duration-300 group-hover:opacity-0">
+                        <span class="text-5xl mb-2 drop-shadow-lg">🐳</span>
+                        <h3 class="text-lg font-semibold text-gray-100">Containerization</h3>
+                    </div>
+                    <!-- Back of the card -->
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <p class="text-sm font-medium text-white mb-2">Technologies</p>
+                        <p class="text-xs text-cyan-100">Docker, Kubernetes</p>
+                    </div>
+                </div>
+
+                <div class="group relative bg-gray-800 rounded-xl p-6 text-center shadow-lg transition-all duration-300 hover:bg-cyan-800 hover:shadow-cyan-500/50 hover:shadow-2xl hover:-translate-y-1 h-48">
+                    <!-- Front of the card -->
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-100 transition-opacity duration-300 group-hover:opacity-0">
+                        <span class="text-5xl mb-2 drop-shadow-lg">🏗️</span>
+                        <h3 class="text-lg font-semibold text-gray-100">IaC</h3>
+                    </div>
+                    <!-- Back of the card -->
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <p class="text-sm font-medium text-white mb-2">Infrastructure</p>
+                        <p class="text-xs text-cyan-100">Terraform, Ansible</p>
+                    </div>
+                </div>
+
+                <div class="group relative bg-gray-800 rounded-xl p-6 text-center shadow-lg transition-all duration-300 hover:bg-cyan-800 hover:shadow-cyan-500/50 hover:shadow-2xl hover:-translate-y-1 h-48">
+                    <!-- Front of the card -->
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-100 transition-opacity duration-300 group-hover:opacity-0">
+                        <span class="text-5xl mb-2 drop-shadow-lg">📈</span>
+                        <h3 class="text-lg font-semibold text-gray-100">Monitoring</h3>
+                    </div>
+                    <!-- Back of the card -->
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <p class="text-sm font-medium text-white mb-2">Tools</p>
+                        <p class="text-xs text-cyan-100">Prometheus, Grafana</p>
+                    </div>
+                </div>
+
+                <div class="group relative bg-gray-800 rounded-xl p-6 text-center shadow-lg transition-all duration-300 hover:bg-cyan-800 hover:shadow-cyan-500/50 hover:shadow-2xl hover:-translate-y-1 h-48">
+                    <!-- Front of the card -->
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-100 transition-opacity duration-300 group-hover:opacity-0">
+                        <span class="text-5xl mb-2 drop-shadow-lg">🐍</span>
+                        <h3 class="text-lg font-semibold text-gray-100">Scripting</h3>
+                    </div>
+                    <!-- Back of the card -->
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <p class="text-sm font-medium text-white mb-2">Languages</p>
+                        <p class="text-xs text-cyan-100">Python, Bash, Linux</p>
+                    </div>
+                </div>
+
+                <div class="group relative bg-gray-800 rounded-xl p-6 text-center shadow-lg transition-all duration-300 hover:bg-cyan-800 hover:shadow-cyan-500/50 hover:shadow-2xl hover:-translate-y-1 h-48">
+                    <!-- Front of the card -->
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-100 transition-opacity duration-300 group-hover:opacity-0">
+                        <span class="text-5xl mb-2 drop-shadow-lg">🌳</span>
+                        <h3 class="text-lg font-semibold text-gray-100">Version Control</h3>
+                    </div>
+                    <!-- Back of the card -->
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <p class="text-sm font-medium text-white mb-2">System</p>
+                        <p class="text-xs text-cyan-100">Git</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="experience" class="bg-gray-900 rounded-lg p-6 mb-8 transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/50 hover:shadow-2xl">
+            <h2 class="text-3xl font-bold mb-4 text-cyan-400">Work Experience</h2>
+            <div id="experienceList" class="space-y-6">
+                <!-- Example Work Experience -->
+                <div class="border-l-4 border-cyan-500 pl-4">
+                    <h3 class="text-xl font-semibold text-gray-100">implementation Engineer</h3>
+                    <p class="text-gray-400 italic">6D Technologies Pvt. | Sep 2024 - Present</p>
+                    <ul class="list-disc list-inside mt-2 text-gray-300 space-y-1">
+                        <li>Managed and maintained CI/CD pipelines using Jenkins for automated builds and deployments.</li>
+                        <li>Implemented infrastructure as code (IaC) with Terraform on AWS, reducing deployment time by 30%.</li>
+                        <li>Monitored system performance with Prometheus and Grafana, ensuring 99.9% uptime.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="bg-gray-900 rounded-lg p-6 mb-8 transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/50 hover:shadow-2xl">
+            <h2 class="text-3xl font-bold mb-4 text-cyan-400">Education</h2>
+            <div id="educationList" class="space-y-6">
+                <!-- Example Education -->
+                <div class="border-l-4 border-cyan-500 pl-4">
+                    <h3 class="text-xl font-semibold text-gray-100">Bachelor of Enginnering in Electronics & Communcation</h3>
+                    <p class="text-gray-400 italic">MIT Mysore | 2019 - 2023</p>
+                    <p class="mt-2 text-gray-300">Specialized in System Administration and Networking.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="bg-gray-900 rounded-lg p-6 mb-8 transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/50 hover:shadow-2xl">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-3xl font-bold text-cyan-400">Projects</h2>
+            </div>
+            <div id="projectList" class="space-y-6">
+                <!-- Example Project 1 -->
+                <div class="border-l-4 border-cyan-500 pl-4">
+                    <h3 class="text-xl font-semibold text-gray-100">Automated Kubernetes Deployment</h3>
+                    <p class="mt-2 text-gray-300">
+                        Designed and implemented a CI/CD pipeline using GitLab CI to automate the build, test, and deployment of a microservice application to a Kubernetes cluster. The pipeline reduced manual effort and deployment time significantly.
+                    </p>
+                </div>
+                <!-- Example Project 2 -->
+                <div class="border-l-4 border-cyan-500 pl-4">
+                    <h3 class="text-xl font-semibold text-gray-100">Cloud Cost Optimization Tool</h3>
+                    <p class="mt-2 text-gray-300">
+                        Developed a Python script to analyze AWS usage data and provide recommendations for cost savings. The tool identified underutilized resources and resulted in a 15% reduction in monthly cloud expenditure.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="bg-gray-900 rounded-lg p-6 mb-8 text-center transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/50 hover:shadow-2xl">
+            <h2 class="text-3xl font-bold mb-4 text-cyan-400">Download My Resume</h2>
+            <p class="text-gray-300 mb-4">You can download a PDF version of my resume for a comprehensive overview of my experience and skills.</p>
+            <a href="resume.pdf" download class="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-3 px-6 rounded-lg inline-block transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg">Download Resume (PDF)</a>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-gray-900 rounded-lg p-6 transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/50 hover:shadow-2xl">
+            <h2 class="text-3xl font-bold mb-4 text-cyan-400">Contact</h2>
+            <p class="text-gray-300">Email: <a href="mailto:johndoe@example.com" class="text-cyan-400 hover:underline">johndoe@example.com</a></p>
+            <p class="text-gray-300">LinkedIn: <a href="https://linkedin.com/in/johndoe" class="text-cyan-400 hover:underline" target="_blank" rel="noopener noreferrer">linkedin.com/in/johndoe</a></p>
+            <p class="text-gray-300">GitHub: <a href="https://github.com/johndoe" class="text-cyan-400 hover:underline" target="_blank" rel="noopener noreferrer">github.com/johndoe</a></p>
+        </section>
+    </div>
+</body>
+</html>
